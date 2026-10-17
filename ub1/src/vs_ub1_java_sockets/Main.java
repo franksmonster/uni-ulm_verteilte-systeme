@@ -110,6 +110,7 @@ public class Main {
 	
 	// Calculates given string representing a multiplication of x factors.
 	
+	// TEST
 	public static int calculateMultiplicationString(String multiplicationString) 
 	{	
 		int result = 1; 
