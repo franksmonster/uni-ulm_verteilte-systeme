@@ -1,6 +1,7 @@
 package vs_ub1_java_sockets;
 
 import java.io.IOException;
+
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
@@ -8,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main {
+class Main {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -126,4 +127,5 @@ public class Main {
 		return result;
 	}
 
+	
 }
