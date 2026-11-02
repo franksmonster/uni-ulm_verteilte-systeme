@@ -1,7 +1,6 @@
 package vs_ub1_java_sockets;
 
 import java.io.IOException;
-
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
@@ -49,7 +48,7 @@ class Main {
 		System.out.println("Empfangen: " + "["+responseString+"]");
 		String testString = "6*9*5*7*4";
 				
-		String resultString = EvaluateTheTerm(responseString);
+		String resultString = evaluateTheTerm(responseString);
 		System.out.println("Ergebnis: " + resultString);
 		
 		
@@ -88,7 +87,7 @@ class Main {
 		datagramSocket.close();
 	}
 	
-	public static String EvaluateTheTerm(String term) 
+	public static String evaluateTheTerm(String term) 
 	{
 		int result = 0;
 		String[] chars = term.split("\\+");

@@ -1,0 +1,18 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.daniel</groupId>
+	<artifactId>ub2a1</artifactId>
+	<version>1.0.0</version>
+
+	<dependencies>
+		<!-- Source: https://mvnrepository.com/artifact/org.zeromq/jeromq -->
+		<dependency>
+			<groupId>org.zeromq</groupId>
+			<artifactId>jeromq</artifactId>
+			<version>0.6.0</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>
