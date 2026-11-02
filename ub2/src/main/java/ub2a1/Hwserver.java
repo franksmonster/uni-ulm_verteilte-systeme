@@ -142,8 +142,13 @@ public class Hwserver {
             }
         }
     }
-
-    // Extract GameID from server response.
+    
+    /**
+     * Extracts the game ID from a server response.
+     *
+     * @param response the response received from the server
+     * @return the extracted game ID
+     */
     static String extractGameID(String response) {
 
         String[] words = response.trim().split("\\s+");
