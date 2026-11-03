@@ -23,13 +23,11 @@ public class Worker {
 
             sender.connect("tcp://localhost:5556");
 
-            System.out.println("Worker wartet auf Challenges...");
+            System.out.println("Worker wartet auf Aufgaben...");
 
             while (true) {
 
                 String message = receiver.recvStr();
-
-                System.out.println("Empfangen: " + message);
 
                 BigInteger n = new BigInteger(message);
 
@@ -43,8 +41,6 @@ public class Worker {
                                     factors[1];
 
                     sender.send(result);
-
-                    System.out.println("Ergebnis: " + result);
                 }
             }
         }

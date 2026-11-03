@@ -38,7 +38,7 @@ public class Controller {
 
                 String message = subscriber.recvStr();
 
-                System.out.println("Empfangene Challenge: " + message);
+                System.out.println("Empfangene Aufgabe: " + message);
 
                 sender.send(message);
 
