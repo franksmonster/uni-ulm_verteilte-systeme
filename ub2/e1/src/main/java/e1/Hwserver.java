@@ -1,5 +1,5 @@
 
-package ub2a1;
+package e1;
 
 import java.util.concurrent.ThreadLocalRandom;
 
